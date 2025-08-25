@@ -1,0 +1,44 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    font-family: Arial, 'sans-serif' ;
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+}
+
+.calender{
+    width: 300px;
+    border: 2px solid black;
+}
+
+.input{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-bottom: 2px solid black;
+}
+
+.heading{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+table{
+    text-align: center;
+    border-collapse: collapse;
+    width: 100%;
+}
+
+th, td{
+    padding: 5px;
+    border-bottom: 1px soild #ccc;
+}
+
+th {
+    background: #eeecec;
+}
